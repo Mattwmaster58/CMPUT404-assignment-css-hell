@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            background-color: rgb(250,240,228);
+            font: 1.2em "Fira Sans", sans-serif;
+            padding: 1em;
+            display: flex;
+            align-content: center;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        #main {
+            flex-basis: 50%;
+            display: flex;
+            align-items: center;
+            align-content: center;
+            flex-direction: column;
+        }
+
+        figcaption {
+            font-size: 0.5em;
+            text-align: center;
+        }
+
+        p {
+            margin: 1em;
+            text-indent: 3em;
+        }
+
+        .section {
+            display: flex;
+            flex-direction: row;
+        }
+
+        #pfp {
+            width: 10em;
+        }
+
+
+        #sidebar {
+            display: inline-block;
+            height: min-content;
+            outline: solid;
+            padding: 1em;
+        }
+
+    </style>
+</head>
+<body>
+<div id="main">
+    <h1>About Me</h1>
+    <div class="section">
+        <figure>
+            <img id="pfp" src="https://upload.wikimedia.org/wikipedia/commons/8/88/46_Dick_Cheney_3x4.jpg"
+                 alt="dick cheney"/>
+            <figcaption>Image credit: Dick Cheney's Wikipedia page (public domain) (not sure how it ended up on there)
+            </figcaption>
+        </figure>
+        <p>Hi, I'm Mattwmaster58. I am a 3rd year CS student at University of Alberta. I was born in Hawaii but grew up
+            in
+            Edmonton, Alberta. I enjoy most things outdoors, skiing in particular. </p>
+    </div>
+
+    <h1>Experience</h1>
+    <div class="section">
+        <ul>
+            <li>I have 2 years of part-time freelance experience, mostly working on Python web backends</li>
+            <li>I have <a href="https://github.com/Mattwmaster58">worked</a> with the following languages in some
+                capacity over the years:
+                <ul>
+                    <li>Typescript/Javascript</li>
+                    <li>Bash</li>
+                    <li>C</li>
+                    <li>Lua</li>
+                    <li>Java</li>
+                </ul>
+            </li>
+            <li>I am currently working a TA from <a href="https://apps.ualberta.ca/catalogue/course/cmput/229">CMPUT
+                229</a> at the University of Alberta
+            </li>
+        </ul>
+    </div>
+
+
+    <h1>What I have to offer</h1>
+    <div class="section">
+        <p>I am a dedicated and drive individual that enjoys and thrives working on hard problems. I am constantly
+            pushing myself to learn and innovate. I am versatile and pick up new skills fast. I am willing to work
+            anywhere in the world, as long as it's
+        </p>
+    </div>
+</div>
+<div id="sidebar">
+    <div><h2>Important points about me</h2>
+        <ul>
+            <li>I don't like working early in the morning</li>
+            <li>I need at least 2 monitors to be productive</li>
+        </ul>
+    </div>
+
+</div>
+</body>
+
+</html>
