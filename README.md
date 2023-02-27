@@ -12,10 +12,18 @@ Read this comic http://theoatmeal.com/comics/design_hell
 
 git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
 
+## Modifications made
+ - sepia body background
+ - nice spaced out "californian FB" font for p, a, and div tags
+ - denser font for i captions "berlian sans fb"
+ - images got a beautiful drop shadow
+ - h1-5 all got a nice text shadow accent
+
+
 License/Copyright
 =================
 
-Textual content is copyright Abram Hindle (C) 2013 under the CC-BY-SA
+Textual content is copyright Abram Hindle (C) 2013, Mattwmaster58 2023, under the CC-BY-SA
 4.0 unported license. Attribution should be a hyperlink to the
 repository and (C) 2013 Abram Hindle visibile in the text.
 
