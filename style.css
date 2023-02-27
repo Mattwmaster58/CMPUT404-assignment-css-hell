@@ -1,0 +1,19 @@
+body {
+    background: rgb(250, 240, 228) !important;
+}
+
+p, a, div {
+    font-family: "Californian FB", Times, monospace;
+}
+
+i {
+    font-family: "Berlin Sans FB", Times, monospace;
+}
+
+img {
+    box-shadow: 10px 5px 15px black;
+}
+
+h1, h2, h3, h4, h5 {
+    text-shadow: 2px 2.5px 5px gray;
+}
